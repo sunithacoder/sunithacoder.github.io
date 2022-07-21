@@ -1,0 +1,120 @@
+body{
+    
+    background-image: url("images/flightpic1.jpg");
+    background-blend-mode lighting-color ;
+    background-image: -moz-repeating-radial-gradient();
+    font-size:xx-large;
+    font-weight: 300;
+     
+}
+.booking-form box{
+    
+
+}
+formres{
+   display:inline-block;
+   
+   justify-content: space-evenly;
+}
+    
+    
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+.radio-btn{
+    margin:0 20px;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+    border: 3 px saddlebrown;
+    visibility: visible;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn span{
+    color:beige;
+    margin-right: 5px;
+    font-size:20 px;
+}
+.input-grp{
+
+    padding: 0 20px 20px;
+    
+
+}
+input-grp::placeholder{
+    color: grey;
+    font-size: 1.2rem;
+    flex-basis: 100%;
+    width: calc(100% -2px);
+    padding: 0.25rem 1rem;
+}
+.input-grp{
+    width: 151 px;
+    display: inline-block;
+}
+.form-control{
+    font-size:  12px;
+    color:rgb(30, 1, 1);
+    background-origin: padding-box;
+}
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.select-date.select-date::-webkit-calendar-picker-indicator{
+    background: white;
+}
+.btn {
+    min width:768px;
+    
+    
+    border: 1px;
+    background:yellow;
+    color:black;
+    font-size: 1.125rem;
+    padding-block-end: calc(26px - 0.75rem);
+    padding-block-start: calc(26px - 0.75rem);
+    
+
+}
+.btn :hover{
+    background: green;
+    color: rgb(0, 0, 0);
+    transition:0.5s
+}
+
+.input-grp span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px ;
+    color: red;
+    font-family: Roboto,Arial,sans-serif;
+        font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+}
+#submit-error{
+    color: red;
+}
+
+
+

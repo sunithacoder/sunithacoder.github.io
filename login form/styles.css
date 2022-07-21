@@ -1,0 +1,71 @@
+body{
+    background-color:brown;
+}
+.h1{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    text-align: center;
+
+
+
+}
+.login-page{
+    width: 360px;
+    padding:  10% 0 0;
+    margin: auto;
+}
+.form{
+    position:relative;
+    z-index: 1;
+    background:gold;
+    max-width: 500px;
+    margin: 0 auto 100 px;
+    padding: 45px;
+    text-align: center;
+   
+}
+
+
+.form input{
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 1;
+    background: white;
+    width: 100%;
+    border:0;
+    margin: 0 0 15 px;
+    padding: 15 px;
+    box-sizing: border-box;
+    font-size: xx-large;
+
+}
+
+.form button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    outline:0;
+    background: green;
+    width:100%;
+    border:0;
+    padding: 15px;
+    color:  white;
+    font-size:xx-large;
+    cursor:pointer;
+
+}
+.form p{
+    font-size: x-large;
+}
+   .form button:hover,.form button:active{
+    background:dodgerblue;
+   }
+  .form message{
+    margin: 15px, 0,0;
+    color:aquamarine;
+    font-size 14px;
+  }
+  /* to display only one form */
+  .form .registration-form{
+    display: none;
+
+  }
